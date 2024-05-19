@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas Hot Chicken</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Pfzwb8T5/OyFVqZuf7oPSQMo6Wugv4Di+VrklfHPrFvHJKLR+XS8gkKNVt3wBqOfEEC5S44BSk+tNU9jXo5sMw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <h1 data-aos="fade-down">Welcome to Areas Hot Chicken</h1>
+        <p data-aos="fade-up">Experience the Heat with Areas Hot Chicken!</p>
+        <a href="#menu" class="btn bounce">View Menu</a>
+        <a href="#order" class="btn bounce">Order Now</a>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" data-aos="fade-right">
+        <h2>About Us</h2>
+        <p>Areas Hot Chicken started with a dream and a love for spicy, delicious chicken. Our unique recipes and dedication to quality have made us a favorite among hot chicken enthusiasts.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item" data-aos="zoom-in">
+            <h3>Hot Chicken Sandwich</h3>
+            <p>A delicious hot chicken sandwich with your choice of heat level.</p>
+            <img src="hot-chicken-sandwich.jpeg" alt="Hot Chicken Sandwich">
+        </div>
+        <div class="menu-item" data-aos="zoom-in">
+            <h3>Cheesy Hot Chicken Sandwich</h3>
+            <p>A cheesy twist on our classic hot chicken sandwich.</p>
+            <img src="images/cheesy-hot-chicken-sandwich.jpg" alt="Cheesy Hot Chicken Sandwich">
+        </div>
+        <!-- Add more menu items as needed -->
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations">
+        <h2>Our Locations</h2>
+        <div class="location" data-aos="fade-left">
+            <h3>123 Main Street, City</h3>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+        <!-- Add more locations as needed -->
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form data-aos="fade-up">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <script src="Homepage.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
